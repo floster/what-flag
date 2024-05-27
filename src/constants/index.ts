@@ -1,254 +1,3783 @@
 import type { Country } from '../types'
 
 export const countries: Country[] = [
-  { name: 'Åland Islands', code: 'ax' },
-  { name: 'Afghanistan', code: 'af' },
-  { name: 'Albania', code: 'al' },
-  { name: 'Algeria', code: 'dz' },
-  { name: 'American Samoa', code: 'as' },
-  { name: 'Andorra', code: 'ad' },
-  { name: 'Angola', code: 'ao' },
-  { name: 'Anguilla', code: 'ai' },
-  { name: 'Antarctica', code: 'aq' },
-  { name: 'Antigua and Barbuda', code: 'ag' },
-  { name: 'Argentina', code: 'ar' },
-  { name: 'Armenia', code: 'am' },
-  { name: 'Aruba', code: 'aw' },
-  { name: 'Australia', code: 'au' },
-  { name: 'Austria', code: 'at' },
-  { name: 'Azerbaijan', code: 'az' },
-  { name: 'Bahamas', code: 'bs' },
-  { name: 'Bahrain', code: 'bh' },
-  { name: 'Bangladesh', code: 'bd' },
-  { name: 'Barbados', code: 'bb' },
-  { name: 'Belarus', code: 'by' },
-  { name: 'Belgium', code: 'be' },
-  { name: 'Belize', code: 'bz' },
-  { name: 'Benin', code: 'bj' },
-  { name: 'Bermuda', code: 'bm' },
-  { name: 'Bhutan', code: 'bt' },
-  { name: 'Bolivia', code: 'bo' },
-  { name: 'Bonaire, Sint Eustatius and Saba', code: 'bq' },
-  { name: 'Bosnia and Herzegovina', code: 'ba' },
-  { name: 'Botswana', code: 'bw' },
-  { name: 'Bouvet Island', code: 'bv' },
-  { name: 'Brazil', code: 'br' },
-  { name: 'British Indian Ocean Territory', code: 'io' },
-  { name: 'Brunei Darussalam', code: 'bn' },
-  { name: 'Bulgaria', code: 'bg' },
-  { name: 'Burkina Faso', code: 'bf' },
-  { name: 'Burundi', code: 'bi' },
-  { name: 'Cambodia', code: 'kh' },
-  { name: 'Cameroon', code: 'cm' },
-  { name: 'Canada', code: 'ca' },
-  { name: 'Cape Verde', code: 'cv' },
-  { name: 'Cayman Islands', code: 'ky' },
-  { name: 'Central African Republic', code: 'cf' },
-  { name: 'Chad', code: 'td' },
-  { name: 'Chile', code: 'cl' },
-  { name: 'China', code: 'cn' },
-  { name: 'Christmas Island', code: 'cx' },
-  { name: 'Cocos (Keeling) Islands', code: 'cc' },
-  { name: 'Colombia', code: 'co' },
-  { name: 'Comoros', code: 'km' },
-  { name: 'Congo', code: 'cg' },
-  { name: 'Congo, The Democratic Republic of the', code: 'cd' },
-  { name: 'Cook Islands', code: 'ck' },
-  { name: 'Costa Rica', code: 'cr' },
-  { name: "Côte d'Ivoire", code: 'ci' },
-  { name: 'Croatia', code: 'hr' },
-  { name: 'Cuba', code: 'cu' },
-  { name: 'Curaçao', code: 'cw' },
-  { name: 'Cyprus', code: 'cy' },
-  { name: 'Czech Republic', code: 'cz' },
-  { name: 'Denmark', code: 'dk' },
-  { name: 'Djibouti', code: 'dj' },
-  { name: 'Dominica', code: 'dm' },
-  { name: 'Dominican Republic', code: 'do' },
-  { name: 'Ecuador', code: 'ec' },
-  { name: 'Egypt', code: 'eg' },
-  { name: 'El Salvador', code: 'sv' },
-  { name: 'Equatorial Guinea', code: 'gq' },
-  { name: 'Eritrea', code: 'er' },
-  { name: 'Estonia', code: 'ee' },
-  { name: 'Ethiopia', code: 'et' },
-  { name: 'Falkland Islands (Malvinas)', code: 'fk' },
-  { name: 'Faroe Islands', code: 'fo' },
-  { name: 'Fiji', code: 'fj' },
-  { name: 'Finland', code: 'fi' },
-  { name: 'France', code: 'fr' },
-  { name: 'French Guiana', code: 'gf' },
-  { name: 'French Polynesia', code: 'pf' },
-  { name: 'French Southern Territories', code: 'tf' },
-  { name: 'Gabon', code: 'ga' },
-  { name: 'Gambia', code: 'gm' },
-  { name: 'Georgia', code: 'ge' },
-  { name: 'Germany', code: 'de' },
-  { name: 'Ghana', code: 'gh' },
-  { name: 'Gibraltar', code: 'gi' },
-  { name: 'Greece', code: 'gr' },
-  { name: 'Greenland', code: 'gl' },
-  { name: 'Grenada', code: 'gd' },
-  { name: 'Guadeloupe', code: 'gp' },
-  { name: 'Guam', code: 'gu' },
-  { name: 'Guatemala', code: 'gt' },
-  { name: 'Guernsey', code: 'gg' },
-  { name: 'Guinea', code: 'gn' },
-  { name: 'Guinea-Bissau', code: 'gw' },
-  { name: 'Guyana', code: 'gy' },
-  { name: 'Haiti', code: 'ht' },
-  { name: 'Heard Island and Mcdonald Islands', code: 'hm' },
-  { name: 'Holy See (Vatican City State)', code: 'va' },
-  { name: 'Honduras', code: 'hn' },
-  { name: 'Hong Kong', code: 'hk' },
-  { name: 'Hungary', code: 'hu' },
-  { name: 'Iceland', code: 'is' },
-  { name: 'India', code: 'in' },
-  { name: 'Indonesia', code: 'id' },
-  { name: 'Iran', code: 'ir' },
-  { name: 'Iraq', code: 'iq' },
-  { name: 'Ireland', code: 'ie' },
-  { name: 'Isle of Man', code: 'im' },
-  { name: 'Israel', code: 'il' },
-  { name: 'Italy', code: 'it' },
-  { name: 'Jamaica', code: 'jm' },
-  { name: 'Japan', code: 'jp' },
-  { name: 'Jersey', code: 'je' },
-  { name: 'Jordan', code: 'jo' },
-  { name: 'Kazakhstan', code: 'kz' },
-  { name: 'Kenya', code: 'ke' },
-  { name: 'Kiribati', code: 'ki' },
-  { name: 'Korea, Republic of', code: 'kr' },
-  { name: 'Kuwait', code: 'kw' },
-  { name: 'Kyrgyzstan', code: 'kg' },
-  { name: 'Laos', code: 'la' },
-  { name: 'Latvia', code: 'lv' },
-  { name: 'Lebanon', code: 'lb' },
-  { name: 'Lesotho', code: 'ls' },
-  { name: 'Liberia', code: 'lr' },
-  { name: 'Libyan Arab Jamahiriya', code: 'ly' },
-  { name: 'Liechtenstein', code: 'li' },
-  { name: 'Lithuania', code: 'lt' },
-  { name: 'Luxembourg', code: 'lu' },
-  { name: 'Macao', code: 'mo' },
-  { name: 'North Macedonia', code: 'mk' },
-  { name: 'Madagascar', code: 'mg' },
-  { name: 'Malawi', code: 'mw' },
-  { name: 'Malaysia', code: 'my' },
-  { name: 'Maldives', code: 'mv' },
-  { name: 'Mali', code: 'ml' },
-  { name: 'Malta', code: 'mt' },
-  { name: 'Marshall Islands', code: 'mh' },
-  { name: 'Martinique', code: 'mq' },
-  { name: 'Mauritania', code: 'mr' },
-  { name: 'Mauritius', code: 'mu' },
-  { name: 'Mayotte', code: 'yt' },
-  { name: 'Mexico', code: 'mx' },
-  { name: 'Micronesia, Federated States of', code: 'fm' },
-  { name: 'Moldova, Republic of', code: 'md' },
-  { name: 'Monaco', code: 'mc' },
-  { name: 'Mongolia', code: 'mn' },
-  { name: 'Montenegro', code: 'me' },
-  { name: 'Montserrat', code: 'ms' },
-  { name: 'Morocco', code: 'ma' },
-  { name: 'Mozambique', code: 'mz' },
-  { name: 'Myanmar', code: 'mm' },
-  { name: 'Namibia', code: 'na' },
-  { name: 'Nauru', code: 'nr' },
-  { name: 'Nepal', code: 'np' },
-  { name: 'Netherlands', code: 'nl' },
-  { name: 'Netherlands Antilles', code: 'an' },
-  { name: 'New Caledonia', code: 'nc' },
-  { name: 'New Zealand', code: 'nz' },
-  { name: 'Nicaragua', code: 'ni' },
-  { name: 'Niger', code: 'ne' },
-  { name: 'Nigeria', code: 'ng' },
-  { name: 'Niue', code: 'nu' },
-  { name: 'Norfolk Island', code: 'nf' },
-  { name: 'North Korea', code: 'kp' },
-  { name: 'Northern Mariana Islands', code: 'mp' },
-  { name: 'Norway', code: 'no' },
-  { name: 'Oman', code: 'om' },
-  { name: 'Pakistan', code: 'pk' },
-  { name: 'Palau', code: 'pw' },
-  { name: 'Palestinian Territory, Occupied', code: 'ps' },
-  { name: 'Panama', code: 'pa' },
-  { name: 'Papua New Guinea', code: 'pg' },
-  { name: 'Paraguay', code: 'py' },
-  { name: 'Peru', code: 'pe' },
-  { name: 'Philippines', code: 'ph' },
-  { name: 'Pitcairn Islands', code: 'pn' },
-  { name: 'Poland', code: 'pl' },
-  { name: 'Portugal', code: 'pt' },
-  { name: 'Puerto Rico', code: 'pr' },
-  { name: 'Qatar', code: 'qa' },
-  { name: 'Reunion', code: 're' },
-  { name: 'Romania', code: 'ro' },
-  { name: 'Russian Federation', code: 'ru' },
-  { name: 'Rwanda', code: 'rw' },
-  { name: 'Saint Barthélemy', code: 'bl' },
-  { name: 'Saint Helena', code: 'sh' },
-  { name: 'Saint Kitts and Nevis', code: 'kn' },
-  { name: 'Saint Lucia', code: 'lc' },
-  { name: 'Saint Martin', code: 'mf' },
-  { name: 'Saint Pierre and Miquelon', code: 'pm' },
-  { name: 'Saint Vincent and the Grenadines', code: 'vc' },
-  { name: 'Samoa', code: 'ws' },
-  { name: 'San Marino', code: 'sm' },
-  { name: 'Sao Tome and Principe', code: 'st' },
-  { name: 'Saudi Arabia', code: 'sa' },
-  { name: 'Senegal', code: 'sn' },
-  { name: 'Serbia', code: 'rs' },
-  { name: 'Seychelles', code: 'sc' },
-  { name: 'Sierra Leone', code: 'sl' },
-  { name: 'Singapore', code: 'sg' },
-  { name: 'Sint Maarten', code: 'sx' },
-  { name: 'Slovakia', code: 'sk' },
-  { name: 'Slovenia', code: 'si' },
-  { name: 'Solomon Islands', code: 'sb' },
-  { name: 'Somalia', code: 'so' },
-  { name: 'South Africa', code: 'za' },
-  { name: 'South Georgia and the South Sandwich Islands', code: 'gs' },
-  { name: 'South Sudan', code: 'ss' },
-  { name: 'Spain', code: 'es' },
-  { name: 'Sri Lanka', code: 'lk' },
-  { name: 'Sudan', code: 'sd' },
-  { name: 'Suriname', code: 'sr' },
-  { name: 'Svalbard and Jan Mayen', code: 'sj' },
-  { name: 'Swaziland', code: 'sz' },
-  { name: 'Sweden', code: 'se' },
-  { name: 'Switzerland', code: 'ch' },
-  { name: 'Syrian Arab Republic', code: 'sy' },
-  { name: 'Taiwan', code: 'tw' },
-  { name: 'Tajikistan', code: 'tj' },
-  { name: 'Tanzania, United Republic of', code: 'tz' },
-  { name: 'Thailand', code: 'th' },
-  { name: 'Timor-Leste', code: 'tl' },
-  { name: 'Togo', code: 'tg' },
-  { name: 'Tokelau', code: 'tk' },
-  { name: 'Tonga', code: 'to' },
-  { name: 'Trinidad and Tobago', code: 'tt' },
-  { name: 'Tunisia', code: 'tn' },
-  { name: 'Turkey', code: 'tr' },
-  { name: 'Turkmenistan', code: 'tm' },
-  { name: 'Turks and Caicos Islands', code: 'tc' },
-  { name: 'Tuvalu', code: 'tv' },
-  { name: 'Uganda', code: 'ug' },
-  { name: 'Ukraine', code: 'ua' },
-  { name: 'United Arab Emirates', code: 'ae' },
-  { name: 'United Kingdom', code: 'gb' },
-  { name: 'United States', code: 'us' },
-  { name: 'United States Minor Outlying Islands', code: 'um' },
-  { name: 'Uruguay', code: 'uy' },
-  { name: 'Uzbekistan', code: 'uz' },
-  { name: 'Vanuatu', code: 'vu' },
-  { name: 'Venezuela', code: 've' },
-  { name: 'Vietnam', code: 'vn' },
-  { name: 'Virgin Islands, British', code: 'vg' },
-  { name: 'Virgin Islands, U.S.', code: 'vi' },
-  { name: 'Wallis and Futuna', code: 'wf' },
-  { name: 'Western Sahara', code: 'eh' },
-  { name: 'Yemen', code: 'ye' },
-  { name: 'Zambia', code: 'zm' },
-  { name: 'Zimbabwe', code: 'zw' }
+  {
+    name: 'Åland Islands',
+    code: 'ax',
+    flagData: {
+      origami: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Afghanistan',
+    code: 'af',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: true,
+        white: false,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Albania',
+    code: 'al',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: true,
+        white: false,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Algeria',
+    code: 'dz',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'American Samoa',
+    code: 'as',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Andorra',
+    code: 'ad',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Angola',
+    code: 'ao',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: true,
+        white: false,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Anguilla',
+    code: 'ai',
+    flagData: {
+      symbol: true,
+      gb_related: true,
+      colors: {
+        black: false,
+        white: false,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Antarctica',
+    code: 'aq',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Antigua and Barbuda',
+    code: 'ag',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Argentina',
+    code: 'ar',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Armenia',
+    code: 'am',
+    flagData: {
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Aruba',
+    code: 'aw',
+    flagData: {
+      symbol: 'star',
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Australia',
+    code: 'au',
+    flagData: {
+      symbol: 'star',
+      gb_related: true,
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Austria',
+    code: 'at',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Azerbaijan',
+    code: 'az',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Bahamas',
+    code: 'bs',
+    flagData: {
+      origami: true,
+      colors: {
+        black: true,
+        white: false,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Bahrain',
+    code: 'bh',
+    flagData: {
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Bangladesh',
+    code: 'bd',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Barbados',
+    code: 'bb',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: true,
+        white: false,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Belarus',
+    code: 'by',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Belgium',
+    code: 'be',
+    flagData: {
+      colors: {
+        black: true,
+        white: false,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Belize',
+    code: 'bz',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Benin',
+    code: 'bj',
+    flagData: {
+      origami: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Bermuda',
+    code: 'bm',
+    flagData: {
+      symbol: true,
+      gb_related: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Bhutan',
+    code: 'bt',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Bolivia',
+    code: 'bo',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Bonaire, Sint Eustatius and Saba',
+    code: 'bq',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Bosnia and Herzegovina',
+    code: 'ba',
+    flagData: {
+      symbol: 'star',
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Botswana',
+    code: 'bw',
+    flagData: {
+      colors: {
+        black: true,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Bouvet Island',
+    code: 'bv',
+    flagData: {
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Brazil',
+    code: 'br',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: false,
+        red: false,
+        green: true,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'British Indian Ocean Territory',
+    code: 'io',
+    flagData: {
+      symbol: true,
+      origami: true,
+      gb_related: true,
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Brunei Darussalam',
+    code: 'bn',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Bulgaria',
+    code: 'bg',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Burkina Faso',
+    code: 'bf',
+    flagData: {
+      symbol: 'star',
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Burundi',
+    code: 'bi',
+    flagData: {
+      symbol: 'star',
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Cambodia',
+    code: 'kh',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Cameroon',
+    code: 'cm',
+    flagData: {
+      symbol: 'star',
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Canada',
+    code: 'ca',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Cape Verde',
+    code: 'cv',
+    flagData: {
+      symbol: 'star',
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Cayman Islands',
+    code: 'ky',
+    flagData: {
+      symbol: true,
+      gb_related: true,
+      colors: {
+        black: false,
+        white: false,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Central African Republic',
+    code: 'cf',
+    flagData: {
+      symbol: 'star',
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Chad',
+    code: 'td',
+    flagData: {
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Chile',
+    code: 'cl',
+    flagData: {
+      symbol: 'star',
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'China',
+    code: 'cn',
+    flagData: {
+      symbol: 'star',
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Christmas Island',
+    code: 'cx',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: false,
+        red: false,
+        green: true,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Cocos (Keeling) Islands',
+    code: 'cc',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: false,
+        red: false,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Colombia',
+    code: 'co',
+    flagData: {
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Comoros',
+    code: 'km',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Congo',
+    code: 'cg',
+    flagData: {
+      origami: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Congo, The Democratic Republic of the',
+    code: 'cd',
+    flagData: {
+      symbol: 'star',
+      origami: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Cook Islands',
+    code: 'ck',
+    flagData: {
+      symbol: 'star',
+      gb_related: true,
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Costa Rica',
+    code: 'cr',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: "Côte d'Ivoire",
+    code: 'ci',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Croatia',
+    code: 'hr',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Cuba',
+    code: 'cu',
+    flagData: {
+      symbol: 'star',
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Curaçao',
+    code: 'cw',
+    flagData: {
+      symbol: 'star',
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Cyprus',
+    code: 'cy',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Czech Republic',
+    code: 'cz',
+    flagData: {
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Denmark',
+    code: 'dk',
+    flagData: {
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Djibouti',
+    code: 'dj',
+    flagData: {
+      symbol: 'star',
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Dominica',
+    code: 'dm',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Dominican Republic',
+    code: 'do',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Ecuador',
+    code: 'ec',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Egypt',
+    code: 'eg',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'El Salvador',
+    code: 'sv',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Equatorial Guinea',
+    code: 'gq',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Eritrea',
+    code: 'er',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: true,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Estonia',
+    code: 'ee',
+    flagData: {
+      colors: {
+        black: true,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Ethiopia',
+    code: 'et',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: true,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Falkland Islands (Malvinas)',
+    code: 'fk',
+    flagData: {
+      symbol: true,
+      gb_related: true,
+      colors: {
+        black: false,
+        white: false,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Faroe Islands',
+    code: 'fo',
+    flagData: {
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Fiji',
+    code: 'fj',
+    flagData: {
+      symbol: true,
+      gb_related: true,
+      colors: {
+        black: false,
+        white: false,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Finland',
+    code: 'fi',
+    flagData: {
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'France',
+    code: 'fr',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'French Guiana',
+    code: 'gf',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'French Polynesia',
+    code: 'pf',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'French Southern Territories',
+    code: 'tf',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Gabon',
+    code: 'ga',
+    flagData: {
+      colors: {
+        black: false,
+        white: false,
+        red: false,
+        green: true,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Gambia',
+    code: 'gm',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Georgia',
+    code: 'ge',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Germany',
+    code: 'de',
+    flagData: {
+      colors: {
+        black: true,
+        white: false,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Ghana',
+    code: 'gh',
+    flagData: {
+      symbol: 'star',
+      colors: {
+        black: true,
+        white: false,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Gibraltar',
+    code: 'gi',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Greece',
+    code: 'gr',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Greenland',
+    code: 'gl',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Grenada',
+    code: 'gd',
+    flagData: {
+      symbol: 'star',
+      origami: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Guadeloupe',
+    code: 'gp',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Guam',
+    code: 'gu',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Guatemala',
+    code: 'gt',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Guernsey',
+    code: 'gg',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Guinea',
+    code: 'gn',
+    flagData: {
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Guinea-Bissau',
+    code: 'gw',
+    flagData: {
+      symbol: 'star',
+      origami: true,
+      colors: {
+        black: true,
+        white: false,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Guyana',
+    code: 'gy',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Haiti',
+    code: 'ht',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Heard Island and Mcdonald Islands',
+    code: 'hm',
+    flagData: {
+      symbol: 'star',
+      gb_related: true,
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Holy See (Vatican City State)',
+    code: 'va',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: false,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Honduras',
+    code: 'hn',
+    flagData: {
+      symbol: 'star',
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Hong Kong',
+    code: 'hk',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Hungary',
+    code: 'hu',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Iceland',
+    code: 'is',
+    flagData: {
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'India',
+    code: 'in',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Indonesia',
+    code: 'id',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Iran',
+    code: 'ir',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Iraq',
+    code: 'iq',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Ireland',
+    code: 'ie',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Isle of Man',
+    code: 'im',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Israel',
+    code: 'il',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Italy',
+    code: 'it',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Jamaica',
+    code: 'jm',
+    flagData: {
+      origami: true,
+      colors: {
+        black: true,
+        white: false,
+        red: false,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Japan',
+    code: 'jp',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Jersey',
+    code: 'je',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Jordan',
+    code: 'jo',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Kazakhstan',
+    code: 'kz',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: false,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Kenya',
+    code: 'ke',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Kiribati',
+    code: 'ki',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Korea, Republic of',
+    code: 'kr',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Kuwait',
+    code: 'kw',
+    flagData: {
+      origami: true,
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Kyrgyzstan',
+    code: 'kg',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Laos',
+    code: 'la',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Latvia',
+    code: 'lv',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Lebanon',
+    code: 'lb',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Lesotho',
+    code: 'ls',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: true,
+        white: true,
+        red: false,
+        green: true,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Liberia',
+    code: 'lr',
+    flagData: {
+      symbol: 'star',
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Libyan Arab Jamahiriya',
+    code: 'ly',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Liechtenstein',
+    code: 'li',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Lithuania',
+    code: 'lt',
+    flagData: {
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Luxembourg',
+    code: 'lu',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Macao',
+    code: 'mo',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'North Macedonia',
+    code: 'mk',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Madagascar',
+    code: 'mg',
+    flagData: {
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Malawi',
+    code: 'mw',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: true,
+        white: false,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Malaysia',
+    code: 'my',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Maldives',
+    code: 'mv',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Mali',
+    code: 'ml',
+    flagData: {
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Malta',
+    code: 'mt',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Marshall Islands',
+    code: 'mh',
+    flagData: {
+      symbol: 'star',
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Martinique',
+    code: 'mq',
+    flagData: {
+      origami: true,
+      colors: {
+        black: true,
+        white: false,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Mauritania',
+    code: 'mr',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Mauritius',
+    code: 'mu',
+    flagData: {
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: true,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Mayotte',
+    code: 'yt',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Mexico',
+    code: 'mx',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Micronesia, Federated States of',
+    code: 'fm',
+    flagData: {
+      symbol: 'star',
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Moldova, Republic of',
+    code: 'md',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Monaco',
+    code: 'mc',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Mongolia',
+    code: 'mn',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Montenegro',
+    code: 'me',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Montserrat',
+    code: 'ms',
+    flagData: {
+      symbol: true,
+      gb_related: true,
+      colors: {
+        black: false,
+        white: false,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Morocco',
+    code: 'ma',
+    flagData: {
+      symbol: 'star',
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Mozambique',
+    code: 'mz',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Myanmar',
+    code: 'mm',
+    flagData: {
+      symbol: 'star',
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Namibia',
+    code: 'na',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Nauru',
+    code: 'nr',
+    flagData: {
+      symbol: 'star',
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Nepal',
+    code: 'np',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Netherlands',
+    code: 'nl',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Netherlands Antilles',
+    code: 'an',
+    flagData: {
+      symbol: 'star',
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'New Caledonia',
+    code: 'nc',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: true,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'New Zealand',
+    code: 'nz',
+    flagData: {
+      symbol: true,
+      gb_related: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Nicaragua',
+    code: 'ni',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Niger',
+    code: 'ne',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Nigeria',
+    code: 'ng',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Niue',
+    code: 'nu',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: false,
+        red: false,
+        green: false,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Norfolk Island',
+    code: 'nf',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'North Korea',
+    code: 'kp',
+    flagData: {
+      symbol: 'star',
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Northern Mariana Islands',
+    code: 'mp',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Norway',
+    code: 'no',
+    flagData: {
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Oman',
+    code: 'om',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Pakistan',
+    code: 'pk',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Palau',
+    code: 'pw',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: false,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Palestinian Territory, Occupied',
+    code: 'ps',
+    flagData: {
+      origami: true,
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Panama',
+    code: 'pa',
+    flagData: {
+      symbol: 'star',
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Papua New Guinea',
+    code: 'pg',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Paraguay',
+    code: 'py',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Peru',
+    code: 'pe',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Philippines',
+    code: 'ph',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Pitcairn Islands',
+    code: 'pn',
+    flagData: {
+      symbol: true,
+      gb_related: true,
+      colors: {
+        black: false,
+        white: false,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Poland',
+    code: 'pl',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Portugal',
+    code: 'pt',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Puerto Rico',
+    code: 'pr',
+    flagData: {
+      symbol: 'star',
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Qatar',
+    code: 'qa',
+    flagData: {
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Reunion',
+    code: 're',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Romania',
+    code: 'ro',
+    flagData: {
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Russian Federation',
+    code: 'ru',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Rwanda',
+    code: 'rw',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: false,
+        red: false,
+        green: true,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Saint Barthélemy',
+    code: 'bl',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Saint Helena',
+    code: 'sh',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Saint Kitts and Nevis',
+    code: 'kn',
+    flagData: {
+      symbol: 'star',
+      origami: true,
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Saint Lucia',
+    code: 'lc',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: true,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Saint Martin',
+    code: 'mf',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Saint Pierre and Miquelon',
+    code: 'pm',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Saint Vincent and the Grenadines',
+    code: 'vc',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: false,
+        red: false,
+        green: true,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Samoa',
+    code: 'ws',
+    flagData: {
+      symbol: 'star',
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'San Marino',
+    code: 'sm',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Sao Tome and Principe',
+    code: 'st',
+    flagData: {
+      symbol: 'star',
+      origami: true,
+      colors: {
+        black: true,
+        white: false,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Saudi Arabia',
+    code: 'sa',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Senegal',
+    code: 'sn',
+    flagData: {
+      symbol: 'star',
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Serbia',
+    code: 'rs',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Seychelles',
+    code: 'sc',
+    flagData: {
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Sierra Leone',
+    code: 'sl',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: true,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Singapore',
+    code: 'sg',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Sint Maarten',
+    code: 'sx',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Slovakia',
+    code: 'sk',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Slovenia',
+    code: 'si',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Solomon Islands',
+    code: 'sb',
+    flagData: {
+      symbol: 'star',
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: true,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Somalia',
+    code: 'so',
+    flagData: {
+      symbol: 'star',
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'South Africa',
+    code: 'za',
+    flagData: {
+      origami: true,
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: true,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'South Georgia and the South Sandwich Islands',
+    code: 'gs',
+    flagData: {
+      symbol: true,
+      gb_related: true,
+      colors: {
+        black: false,
+        white: false,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'South Sudan',
+    code: 'ss',
+    flagData: {
+      symbol: 'star',
+      origami: true,
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: true,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Spain',
+    code: 'es',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Sri Lanka',
+    code: 'lk',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Sudan',
+    code: 'sd',
+    flagData: {
+      origami: true,
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Suriname',
+    code: 'sr',
+    flagData: {
+      symbol: 'star',
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Svalbard and Jan Mayen',
+    code: 'sj',
+    flagData: {
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Swaziland',
+    code: 'sz',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Sweden',
+    code: 'se',
+    flagData: {
+      origami: true,
+      colors: {
+        black: false,
+        white: false,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Switzerland',
+    code: 'ch',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Syrian Arab Republic',
+    code: 'sy',
+    flagData: {
+      symbol: 'star',
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Taiwan',
+    code: 'tw',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Tajikistan',
+    code: 'tj',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Tanzania, United Republic of',
+    code: 'tz',
+    flagData: {
+      origami: true,
+      colors: {
+        black: true,
+        white: false,
+        red: false,
+        green: true,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Thailand',
+    code: 'th',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Timor-Leste',
+    code: 'tl',
+    flagData: {
+      symbol: 'star',
+      origami: true,
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Togo',
+    code: 'tg',
+    flagData: {
+      symbol: 'star',
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Tokelau',
+    code: 'tk',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: false,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Tonga',
+    code: 'to',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Trinidad and Tobago',
+    code: 'tt',
+    flagData: {
+      origami: true,
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Tunisia',
+    code: 'tn',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Turkey',
+    code: 'tr',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Turkmenistan',
+    code: 'tm',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Turks and Caicos Islands',
+    code: 'tc',
+    flagData: {
+      symbol: true,
+      gb_related: true,
+      colors: {
+        black: false,
+        white: false,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Tuvalu',
+    code: 'tv',
+    flagData: {
+      symbol: true,
+      gb_related: true,
+      colors: {
+        black: false,
+        white: false,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Uganda',
+    code: 'ug',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: true,
+        white: false,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Ukraine',
+    code: 'ua',
+    flagData: {
+      colors: {
+        black: false,
+        white: false,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'United Arab Emirates',
+    code: 'ae',
+    flagData: {
+      origami: true,
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'United Kingdom',
+    code: 'gb',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'United States',
+    code: 'us',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'United States Minor Outlying Islands',
+    code: 'um',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Uruguay',
+    code: 'uy',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Uzbekistan',
+    code: 'uz',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: true,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Vanuatu',
+    code: 'vu',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: true,
+        white: false,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Venezuela',
+    code: 've',
+    flagData: {
+      symbol: 'star',
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Vietnam',
+    code: 'vn',
+    flagData: {
+      symbol: 'star',
+      colors: {
+        black: false,
+        white: false,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Virgin Islands, British',
+    code: 'vg',
+    flagData: {
+      symbol: true,
+      gb_related: true,
+      colors: {
+        black: false,
+        white: false,
+        red: false,
+        green: true,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Virgin Islands, U.S.',
+    code: 'vi',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: false,
+        white: true,
+        red: false,
+        green: false,
+        blue: true,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Wallis and Futuna',
+    code: 'wf',
+    flagData: {
+      colors: {
+        black: false,
+        white: true,
+        red: true,
+        green: false,
+        blue: true,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Western Sahara',
+    code: 'eh',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Yemen',
+    code: 'ye',
+    flagData: {
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: false,
+        blue: false,
+        yellow: false
+      }
+    }
+  },
+  {
+    name: 'Zambia',
+    code: 'zm',
+    flagData: {
+      symbol: true,
+      colors: {
+        black: true,
+        white: false,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  },
+  {
+    name: 'Zimbabwe',
+    code: 'zw',
+    flagData: {
+      symbol: true,
+      origami: true,
+      colors: {
+        black: true,
+        white: true,
+        red: true,
+        green: true,
+        blue: false,
+        yellow: true
+      }
+    }
+  }
 ]

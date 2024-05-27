@@ -1,9 +1,10 @@
 export type Country = {
   name: string
   code: string
+  flagData: FlagData
 }
 
-interface FlagColors {
+export interface FlagColors {
   black: boolean
   white: boolean
   red: boolean
@@ -13,6 +14,8 @@ interface FlagColors {
 }
 
 export type FlagData = {
-  symbol: boolean
+  symbol?: boolean | 'star'
+  origami?: boolean
+  gb_related?: boolean
   colors: FlagColors
 }
