@@ -4,13 +4,25 @@ export type Country = {
   flagData: FlagData
 }
 
-export interface FlagColors {
-  black: boolean
-  white: boolean
-  red: boolean
-  green: boolean
-  blue: boolean
-  yellow: boolean
+// possible colors of the flag
+export enum Colors {
+  black = 'black',
+  white = 'white',
+  red = 'red',
+  green = 'green',
+  blue = 'blue',
+  yellow = 'yellow'
+}
+
+export enum FlagIcons {
+  Symbol = 'symbol',
+  Origami = 'origami',
+  GbRelated = 'gb_related'
+}
+
+// colors that's used in the flag
+export type FlagColors = {
+  [key in keyof typeof Colors]?: boolean
 }
 
 export type FlagData = {

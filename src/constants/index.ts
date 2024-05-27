@@ -7,10 +7,7 @@ export const countries: Country[] = [
     flagData: {
       origami: true,
       colors: {
-        black: false,
-        white: false,
         red: true,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -23,11 +20,8 @@ export const countries: Country[] = [
       symbol: true,
       colors: {
         black: true,
-        white: false,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -38,11 +32,7 @@ export const countries: Country[] = [
       symbol: true,
       colors: {
         black: true,
-        white: false,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -52,12 +42,9 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -68,12 +55,9 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -83,10 +67,7 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
-        white: false,
         red: true,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -99,10 +80,7 @@ export const countries: Country[] = [
       symbol: true,
       colors: {
         black: true,
-        white: false,
         red: true,
-        green: false,
-        blue: false,
         yellow: true
       }
     }
@@ -114,12 +92,7 @@ export const countries: Country[] = [
       symbol: true,
       gb_related: true,
       colors: {
-        black: false,
-        white: false,
-        red: false,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -129,12 +102,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -148,7 +117,6 @@ export const countries: Country[] = [
         black: true,
         white: true,
         red: true,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -160,10 +128,7 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -174,10 +139,7 @@ export const countries: Country[] = [
     code: 'am',
     flagData: {
       colors: {
-        black: false,
-        white: false,
         red: true,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -189,10 +151,7 @@ export const countries: Country[] = [
     flagData: {
       symbol: 'star',
       colors: {
-        black: false,
-        white: false,
         red: true,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -205,12 +164,8 @@ export const countries: Country[] = [
       symbol: 'star',
       gb_related: true,
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -219,12 +174,8 @@ export const countries: Country[] = [
     code: 'at',
     flagData: {
       colors: {
-        black: false,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -234,12 +185,10 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
         red: true,
         green: true,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -250,9 +199,6 @@ export const countries: Country[] = [
       origami: true,
       colors: {
         black: true,
-        white: false,
-        red: false,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -264,12 +210,8 @@ export const countries: Country[] = [
     flagData: {
       origami: true,
       colors: {
-        black: false,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -279,12 +221,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
-        white: false,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -295,9 +233,6 @@ export const countries: Country[] = [
       symbol: true,
       colors: {
         black: true,
-        white: false,
-        red: false,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -310,12 +245,9 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -325,10 +257,7 @@ export const countries: Country[] = [
     flagData: {
       colors: {
         black: true,
-        white: false,
         red: true,
-        green: false,
-        blue: false,
         yellow: true
       }
     }
@@ -339,12 +268,9 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -354,11 +280,8 @@ export const countries: Country[] = [
     flagData: {
       origami: true,
       colors: {
-        black: false,
-        white: false,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -370,12 +293,7 @@ export const countries: Country[] = [
       symbol: true,
       gb_related: true,
       colors: {
-        black: false,
-        white: false,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -386,11 +304,8 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: false,
         yellow: true
       }
     }
@@ -401,11 +316,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
-        white: false,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -415,12 +327,9 @@ export const countries: Country[] = [
     code: 'bq',
     flagData: {
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -431,10 +340,7 @@ export const countries: Country[] = [
       symbol: 'star',
       origami: true,
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -447,10 +353,7 @@ export const countries: Country[] = [
       colors: {
         black: true,
         white: true,
-        red: false,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -460,12 +363,9 @@ export const countries: Country[] = [
     flagData: {
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -476,9 +376,6 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
-        white: false,
-        red: false,
         green: true,
         blue: true,
         yellow: true
@@ -493,12 +390,8 @@ export const countries: Country[] = [
       origami: true,
       gb_related: true,
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -512,8 +405,6 @@ export const countries: Country[] = [
         black: true,
         white: true,
         red: true,
-        green: false,
-        blue: false,
         yellow: true
       }
     }
@@ -523,12 +414,9 @@ export const countries: Country[] = [
     code: 'bg',
     flagData: {
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -538,11 +426,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: 'star',
       colors: {
-        black: false,
-        white: false,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -554,12 +439,9 @@ export const countries: Country[] = [
       symbol: 'star',
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -569,12 +451,9 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -584,11 +463,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: 'star',
       colors: {
-        black: false,
-        white: false,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -599,12 +475,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -614,10 +486,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: 'star',
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -630,12 +500,7 @@ export const countries: Country[] = [
       symbol: true,
       gb_related: true,
       colors: {
-        black: false,
-        white: false,
-        red: false,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -646,7 +511,6 @@ export const countries: Country[] = [
       symbol: 'star',
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
         green: true,
@@ -660,10 +524,7 @@ export const countries: Country[] = [
     code: 'td',
     flagData: {
       colors: {
-        black: false,
-        white: false,
         red: true,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -676,12 +537,9 @@ export const countries: Country[] = [
       symbol: 'star',
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -691,11 +549,7 @@ export const countries: Country[] = [
     flagData: {
       symbol: 'star',
       colors: {
-        black: false,
-        white: false,
         red: true,
-        green: false,
-        blue: false,
         yellow: true
       }
     }
@@ -707,9 +561,6 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
-        white: false,
-        red: false,
         green: true,
         blue: true,
         yellow: true
@@ -722,11 +573,7 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
-        white: false,
-        red: false,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -736,10 +583,7 @@ export const countries: Country[] = [
     code: 'co',
     flagData: {
       colors: {
-        black: false,
-        white: false,
         red: true,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -752,7 +596,6 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
         green: true,
@@ -767,11 +610,8 @@ export const countries: Country[] = [
     flagData: {
       origami: true,
       colors: {
-        black: false,
-        white: false,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -783,10 +623,7 @@ export const countries: Country[] = [
       symbol: 'star',
       origami: true,
       colors: {
-        black: false,
-        white: false,
         red: true,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -799,12 +636,8 @@ export const countries: Country[] = [
       symbol: 'star',
       gb_related: true,
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -813,12 +646,9 @@ export const countries: Country[] = [
     code: 'cr',
     flagData: {
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -827,11 +657,8 @@ export const countries: Country[] = [
     code: 'ci',
     flagData: {
       colors: {
-        black: false,
         white: true,
-        red: false,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -842,12 +669,9 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -858,12 +682,9 @@ export const countries: Country[] = [
       symbol: 'star',
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -873,10 +694,7 @@ export const countries: Country[] = [
     flagData: {
       symbol: 'star',
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -888,11 +706,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: false,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -903,12 +718,9 @@ export const countries: Country[] = [
     flagData: {
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -918,12 +730,8 @@ export const countries: Country[] = [
     flagData: {
       origami: true,
       colors: {
-        black: false,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -934,12 +742,10 @@ export const countries: Country[] = [
       symbol: 'star',
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
         green: true,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -954,7 +760,6 @@ export const countries: Country[] = [
         white: true,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -966,12 +771,9 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -981,10 +783,7 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
-        white: false,
         red: true,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -998,10 +797,7 @@ export const countries: Country[] = [
       colors: {
         black: true,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -1011,12 +807,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1027,12 +819,10 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
         green: true,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1043,8 +833,6 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
-        white: false,
         red: true,
         green: true,
         blue: true,
@@ -1059,10 +847,7 @@ export const countries: Country[] = [
       colors: {
         black: true,
         white: true,
-        red: false,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1072,8 +857,6 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
-        white: false,
         red: true,
         green: true,
         blue: true,
@@ -1088,12 +871,7 @@ export const countries: Country[] = [
       symbol: true,
       gb_related: true,
       colors: {
-        black: false,
-        white: false,
-        red: false,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1103,12 +881,9 @@ export const countries: Country[] = [
     flagData: {
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1119,12 +894,7 @@ export const countries: Country[] = [
       symbol: true,
       gb_related: true,
       colors: {
-        black: false,
-        white: false,
-        red: false,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1134,12 +904,8 @@ export const countries: Country[] = [
     flagData: {
       origami: true,
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1148,12 +914,9 @@ export const countries: Country[] = [
     code: 'fr',
     flagData: {
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1162,12 +925,9 @@ export const countries: Country[] = [
     code: 'gf',
     flagData: {
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1177,12 +937,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -1192,12 +948,9 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1206,9 +959,6 @@ export const countries: Country[] = [
     code: 'ga',
     flagData: {
       colors: {
-        black: false,
-        white: false,
-        red: false,
         green: true,
         blue: true,
         yellow: true
@@ -1220,12 +970,10 @@ export const countries: Country[] = [
     code: 'gm',
     flagData: {
       colors: {
-        black: false,
         white: true,
         red: true,
         green: true,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1236,12 +984,8 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -1251,10 +995,7 @@ export const countries: Country[] = [
     flagData: {
       colors: {
         black: true,
-        white: false,
         red: true,
-        green: false,
-        blue: false,
         yellow: true
       }
     }
@@ -1266,10 +1007,8 @@ export const countries: Country[] = [
       symbol: 'star',
       colors: {
         black: true,
-        white: false,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -1280,12 +1019,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -1296,12 +1031,8 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1311,12 +1042,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -1327,11 +1054,8 @@ export const countries: Country[] = [
       symbol: 'star',
       origami: true,
       colors: {
-        black: false,
-        white: false,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -1341,12 +1065,9 @@ export const countries: Country[] = [
     code: 'gp',
     flagData: {
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1356,12 +1077,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
-        white: false,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1371,12 +1088,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1387,11 +1100,8 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: false,
         yellow: true
       }
     }
@@ -1401,11 +1111,8 @@ export const countries: Country[] = [
     code: 'gn',
     flagData: {
       colors: {
-        black: false,
-        white: false,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -1418,10 +1125,8 @@ export const countries: Country[] = [
       origami: true,
       colors: {
         black: true,
-        white: false,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -1437,7 +1142,6 @@ export const countries: Country[] = [
         white: true,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -1448,12 +1152,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
-        white: false,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1464,12 +1164,8 @@ export const countries: Country[] = [
       symbol: 'star',
       gb_related: true,
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1479,11 +1175,7 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: false,
-        blue: false,
         yellow: true
       }
     }
@@ -1494,12 +1186,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: 'star',
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1509,12 +1197,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -1523,12 +1207,9 @@ export const countries: Country[] = [
     code: 'hu',
     flagData: {
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -1538,12 +1219,9 @@ export const countries: Country[] = [
     flagData: {
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1553,11 +1231,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: false,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -1567,12 +1242,8 @@ export const countries: Country[] = [
     code: 'id',
     flagData: {
       colors: {
-        black: false,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -1582,12 +1253,9 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -1599,10 +1267,7 @@ export const countries: Country[] = [
       colors: {
         black: true,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -1611,11 +1276,8 @@ export const countries: Country[] = [
     code: 'ie',
     flagData: {
       colors: {
-        black: false,
         white: true,
-        red: false,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -1626,12 +1288,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -1641,12 +1299,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1655,12 +1309,9 @@ export const countries: Country[] = [
     code: 'it',
     flagData: {
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -1671,10 +1322,7 @@ export const countries: Country[] = [
       origami: true,
       colors: {
         black: true,
-        white: false,
-        red: false,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -1685,12 +1333,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -1701,12 +1345,8 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -1720,9 +1360,7 @@ export const countries: Country[] = [
         black: true,
         white: true,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -1732,10 +1370,6 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
-        white: false,
-        red: false,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -1750,9 +1384,7 @@ export const countries: Country[] = [
         black: true,
         white: true,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -1763,10 +1395,8 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -1781,9 +1411,7 @@ export const countries: Country[] = [
         black: true,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1796,9 +1424,7 @@ export const countries: Country[] = [
         black: true,
         white: true,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -1808,11 +1434,7 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
-        white: false,
         red: true,
-        green: false,
-        blue: false,
         yellow: true
       }
     }
@@ -1823,12 +1445,9 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1837,12 +1456,8 @@ export const countries: Country[] = [
     code: 'lv',
     flagData: {
       colors: {
-        black: false,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -1852,12 +1467,9 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -1869,10 +1481,8 @@ export const countries: Country[] = [
       colors: {
         black: true,
         white: true,
-        red: false,
         green: true,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1883,12 +1493,9 @@ export const countries: Country[] = [
       symbol: 'star',
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1901,9 +1508,7 @@ export const countries: Country[] = [
         black: true,
         white: true,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -1913,12 +1518,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
-        white: false,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1927,11 +1528,8 @@ export const countries: Country[] = [
     code: 'lt',
     flagData: {
       colors: {
-        black: false,
-        white: false,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -1941,12 +1539,9 @@ export const countries: Country[] = [
     code: 'lu',
     flagData: {
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -1956,12 +1551,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -1972,11 +1563,7 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
-        white: false,
         red: true,
-        green: false,
-        blue: false,
         yellow: true
       }
     }
@@ -1987,12 +1574,9 @@ export const countries: Country[] = [
     flagData: {
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -2003,11 +1587,8 @@ export const countries: Country[] = [
       symbol: true,
       colors: {
         black: true,
-        white: false,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -2018,12 +1599,9 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2033,12 +1611,9 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -2047,11 +1622,8 @@ export const countries: Country[] = [
     code: 'ml',
     flagData: {
       colors: {
-        black: false,
-        white: false,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -2062,12 +1634,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -2077,10 +1645,7 @@ export const countries: Country[] = [
     flagData: {
       symbol: 'star',
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -2093,11 +1658,8 @@ export const countries: Country[] = [
       origami: true,
       colors: {
         black: true,
-        white: false,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -2107,11 +1669,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
-        white: false,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -2121,8 +1680,6 @@ export const countries: Country[] = [
     code: 'mu',
     flagData: {
       colors: {
-        black: false,
-        white: false,
         red: true,
         green: true,
         blue: true,
@@ -2135,12 +1692,9 @@ export const countries: Country[] = [
     code: 'yt',
     flagData: {
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2150,12 +1704,9 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -2165,12 +1716,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: 'star',
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2180,10 +1727,7 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
-        white: false,
         red: true,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -2194,12 +1738,8 @@ export const countries: Country[] = [
     code: 'mc',
     flagData: {
       colors: {
-        black: false,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -2209,10 +1749,7 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
-        white: false,
         red: true,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -2224,11 +1761,7 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
-        white: false,
         red: true,
-        green: false,
-        blue: false,
         yellow: true
       }
     }
@@ -2240,12 +1773,7 @@ export const countries: Country[] = [
       symbol: true,
       gb_related: true,
       colors: {
-        black: false,
-        white: false,
-        red: false,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2255,12 +1783,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: 'star',
       colors: {
-        black: false,
-        white: false,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -2275,7 +1799,6 @@ export const countries: Country[] = [
         white: true,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -2286,11 +1809,9 @@ export const countries: Country[] = [
     flagData: {
       symbol: 'star',
       colors: {
-        black: false,
         white: true,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -2302,12 +1823,10 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
         green: true,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2317,10 +1836,7 @@ export const countries: Country[] = [
     flagData: {
       symbol: 'star',
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -2332,12 +1848,9 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2346,12 +1859,9 @@ export const countries: Country[] = [
     code: 'nl',
     flagData: {
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2362,12 +1872,9 @@ export const countries: Country[] = [
       symbol: 'star',
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2377,8 +1884,6 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
-        white: false,
         red: true,
         green: true,
         blue: true,
@@ -2393,12 +1898,8 @@ export const countries: Country[] = [
       symbol: true,
       gb_related: true,
       colors: {
-        black: false,
-        white: false,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2408,12 +1909,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2423,12 +1920,9 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -2437,12 +1931,8 @@ export const countries: Country[] = [
     code: 'ng',
     flagData: {
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -2452,11 +1942,6 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
-        white: false,
-        red: false,
-        green: false,
-        blue: false,
         yellow: true
       }
     }
@@ -2467,12 +1952,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -2482,12 +1963,9 @@ export const countries: Country[] = [
     flagData: {
       symbol: 'star',
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2497,12 +1975,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2512,12 +1986,9 @@ export const countries: Country[] = [
     flagData: {
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2528,12 +1999,9 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -2544,12 +2012,8 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -2559,10 +2023,6 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
-        white: false,
-        red: false,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -2577,9 +2037,7 @@ export const countries: Country[] = [
         black: true,
         white: true,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -2590,12 +2048,9 @@ export const countries: Country[] = [
       symbol: 'star',
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2609,8 +2064,6 @@ export const countries: Country[] = [
         black: true,
         white: true,
         red: true,
-        green: false,
-        blue: false,
         yellow: true
       }
     }
@@ -2621,12 +2074,9 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2635,12 +2085,8 @@ export const countries: Country[] = [
     code: 'pe',
     flagData: {
       colors: {
-        black: false,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -2651,10 +2097,8 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -2667,12 +2111,7 @@ export const countries: Country[] = [
       symbol: true,
       gb_related: true,
       colors: {
-        black: false,
-        white: false,
-        red: false,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2681,12 +2120,8 @@ export const countries: Country[] = [
     code: 'pl',
     flagData: {
       colors: {
-        black: false,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -2696,11 +2131,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
-        white: false,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -2712,12 +2144,9 @@ export const countries: Country[] = [
       symbol: 'star',
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2727,12 +2156,8 @@ export const countries: Country[] = [
     flagData: {
       origami: true,
       colors: {
-        black: false,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -2741,12 +2166,9 @@ export const countries: Country[] = [
     code: 're',
     flagData: {
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2755,10 +2177,7 @@ export const countries: Country[] = [
     code: 'ro',
     flagData: {
       colors: {
-        black: false,
-        white: false,
         red: true,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -2769,12 +2188,9 @@ export const countries: Country[] = [
     code: 'ru',
     flagData: {
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2784,9 +2200,6 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
-        white: false,
-        red: false,
         green: true,
         blue: true,
         yellow: true
@@ -2798,12 +2211,9 @@ export const countries: Country[] = [
     code: 'bl',
     flagData: {
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2814,12 +2224,9 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2834,7 +2241,6 @@ export const countries: Country[] = [
         white: true,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -2847,8 +2253,6 @@ export const countries: Country[] = [
       colors: {
         black: true,
         white: true,
-        red: false,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -2859,12 +2263,9 @@ export const countries: Country[] = [
     code: 'mf',
     flagData: {
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2873,12 +2274,9 @@ export const countries: Country[] = [
     code: 'pm',
     flagData: {
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2888,9 +2286,6 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
-        white: false,
-        red: false,
         green: true,
         blue: true,
         yellow: true
@@ -2904,12 +2299,9 @@ export const countries: Country[] = [
       symbol: 'star',
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2919,12 +2311,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2936,10 +2324,8 @@ export const countries: Country[] = [
       origami: true,
       colors: {
         black: true,
-        white: false,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -2950,12 +2336,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -2965,11 +2347,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: 'star',
       colors: {
-        black: false,
-        white: false,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -2980,12 +2359,9 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -2995,7 +2371,6 @@ export const countries: Country[] = [
     flagData: {
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
         green: true,
@@ -3009,12 +2384,9 @@ export const countries: Country[] = [
     code: 'sl',
     flagData: {
       colors: {
-        black: false,
         white: true,
-        red: false,
         green: true,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -3024,12 +2396,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -3040,12 +2408,9 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -3055,12 +2420,9 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -3070,12 +2432,9 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -3086,9 +2445,7 @@ export const countries: Country[] = [
       symbol: 'star',
       origami: true,
       colors: {
-        black: false,
         white: true,
-        red: false,
         green: true,
         blue: true,
         yellow: true
@@ -3101,12 +2458,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: 'star',
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -3132,12 +2485,7 @@ export const countries: Country[] = [
       symbol: true,
       gb_related: true,
       colors: {
-        black: false,
-        white: false,
-        red: false,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -3163,11 +2511,7 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
-        white: false,
         red: true,
-        green: false,
-        blue: false,
         yellow: true
       }
     }
@@ -3179,11 +2523,8 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
-        white: false,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -3197,9 +2538,7 @@ export const countries: Country[] = [
         black: true,
         white: true,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -3209,11 +2548,9 @@ export const countries: Country[] = [
     flagData: {
       symbol: 'star',
       colors: {
-        black: false,
         white: true,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -3224,12 +2561,9 @@ export const countries: Country[] = [
     flagData: {
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -3242,7 +2576,6 @@ export const countries: Country[] = [
         black: true,
         white: true,
         red: true,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -3254,10 +2587,6 @@ export const countries: Country[] = [
     flagData: {
       origami: true,
       colors: {
-        black: false,
-        white: false,
-        red: false,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -3269,12 +2598,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -3287,9 +2612,7 @@ export const countries: Country[] = [
         black: true,
         white: true,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -3300,12 +2623,9 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -3315,12 +2635,9 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -3331,8 +2648,6 @@ export const countries: Country[] = [
       origami: true,
       colors: {
         black: true,
-        white: false,
-        red: false,
         green: true,
         blue: true,
         yellow: true
@@ -3344,12 +2659,9 @@ export const countries: Country[] = [
     code: 'th',
     flagData: {
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -3363,8 +2675,6 @@ export const countries: Country[] = [
         black: true,
         white: true,
         red: true,
-        green: false,
-        blue: false,
         yellow: true
       }
     }
@@ -3375,11 +2685,9 @@ export const countries: Country[] = [
     flagData: {
       symbol: 'star',
       colors: {
-        black: false,
         white: true,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -3390,10 +2698,6 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
-        white: false,
-        red: false,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -3405,12 +2709,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -3422,10 +2722,7 @@ export const countries: Country[] = [
       colors: {
         black: true,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -3435,12 +2732,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -3450,12 +2743,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -3465,12 +2754,9 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -3481,10 +2767,6 @@ export const countries: Country[] = [
       symbol: true,
       gb_related: true,
       colors: {
-        black: false,
-        white: false,
-        red: false,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -3497,10 +2779,6 @@ export const countries: Country[] = [
       symbol: true,
       gb_related: true,
       colors: {
-        black: false,
-        white: false,
-        red: false,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -3513,10 +2791,7 @@ export const countries: Country[] = [
       symbol: true,
       colors: {
         black: true,
-        white: false,
         red: true,
-        green: false,
-        blue: false,
         yellow: true
       }
     }
@@ -3526,10 +2801,6 @@ export const countries: Country[] = [
     code: 'ua',
     flagData: {
       colors: {
-        black: false,
-        white: false,
-        red: false,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -3544,9 +2815,7 @@ export const countries: Country[] = [
         black: true,
         white: true,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -3557,12 +2826,9 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -3573,12 +2839,9 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -3589,12 +2852,9 @@ export const countries: Country[] = [
       symbol: true,
       origami: true,
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -3604,10 +2864,7 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -3619,12 +2876,10 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
         red: true,
         green: true,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -3636,10 +2891,8 @@ export const countries: Country[] = [
       origami: true,
       colors: {
         black: true,
-        white: false,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -3650,10 +2903,8 @@ export const countries: Country[] = [
     flagData: {
       symbol: 'star',
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -3665,11 +2916,7 @@ export const countries: Country[] = [
     flagData: {
       symbol: 'star',
       colors: {
-        black: false,
-        white: false,
         red: true,
-        green: false,
-        blue: false,
         yellow: true
       }
     }
@@ -3681,9 +2928,6 @@ export const countries: Country[] = [
       symbol: true,
       gb_related: true,
       colors: {
-        black: false,
-        white: false,
-        red: false,
         green: true,
         blue: true,
         yellow: true
@@ -3696,10 +2940,7 @@ export const countries: Country[] = [
     flagData: {
       symbol: true,
       colors: {
-        black: false,
         white: true,
-        red: false,
-        green: false,
         blue: true,
         yellow: true
       }
@@ -3710,12 +2951,9 @@ export const countries: Country[] = [
     code: 'wf',
     flagData: {
       colors: {
-        black: false,
         white: true,
         red: true,
-        green: false,
-        blue: true,
-        yellow: false
+        blue: true
       }
     }
   },
@@ -3729,9 +2967,7 @@ export const countries: Country[] = [
         black: true,
         white: true,
         red: true,
-        green: true,
-        blue: false,
-        yellow: false
+        green: true
       }
     }
   },
@@ -3742,10 +2978,7 @@ export const countries: Country[] = [
       colors: {
         black: true,
         white: true,
-        red: true,
-        green: false,
-        blue: false,
-        yellow: false
+        red: true
       }
     }
   },
@@ -3756,10 +2989,8 @@ export const countries: Country[] = [
       symbol: true,
       colors: {
         black: true,
-        white: false,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }
@@ -3775,7 +3006,6 @@ export const countries: Country[] = [
         white: true,
         red: true,
         green: true,
-        blue: false,
         yellow: true
       }
     }

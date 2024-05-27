@@ -3,6 +3,9 @@ import { defineProps } from 'vue'
 
 import type { Country } from '@/types'
 
+// import components
+import FlagInfo from '@/components/FlagInfo.vue'
+
 // import coutries store
 import { useCountriesStore } from '@/stores/coutries'
 const countriesStore = useCountriesStore()
@@ -28,6 +31,7 @@ const country: Country = countriesStore.getCountryByCode(props.code)!
         <div class="badge badge-lg badge-ghost">{{ country.code }}</div>
         {{ country.name }}
       </h2>
+      <FlagInfo :country="country" class="mt-auto" />
     </div>
   </div>
 </template>
