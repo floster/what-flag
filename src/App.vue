@@ -1,9 +1,15 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import FlagsGrid from '@/components/FlagsGrid.vue'
 
-const hello = ref('Hello, Vue 3 + Vite + Tailwindcss + DaisyUI!')
+// import coutries store
+import { useCountriesStore } from '@/stores/coutries'
+const countriesStore = useCountriesStore()
+
+const countries = countriesStore.getCountriesCodes
 </script>
 
 <template>
-  <h1 class="heading-1">{{ hello }}</h1>
+  <div class="container mx-auto py-6">
+    <FlagsGrid :countris="countries" />
+  </div>
 </template>
