@@ -1,4 +1,14 @@
 import type { Country } from '../types'
+import { Colors } from '../types'
+
+export const flagColors: Colors[] = [
+  Colors.black,
+  Colors.white,
+  Colors.red,
+  Colors.blue,
+  Colors.green,
+  Colors.yellow
+]
 
 export const countries: Country[] = [
   {
