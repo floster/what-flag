@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, watch } from 'vue'
 import FlagsGrid from '@/components/FlagsGrid.vue'
-import FilterColors from '@/components/FilterColors.vue'
+import FiltersPanel from '@/components/FiltersPanel.vue'
 
 // import coutries store
 import { useCountriesStore } from '@/stores/coutries'
@@ -19,7 +19,7 @@ watch(
 
 <template>
   <div class="container mx-auto py-6">
-    <FilterColors class="mb-8" />
+    <FiltersPanel class="mb-8 pt-4 pb-8 border-b border-b-neutral-content dark:border-b-neutral" />
     <FlagsGrid :countris="countries" />
   </div>
 </template>

@@ -9,7 +9,8 @@ export const useCountriesStore = defineStore({
     countries,
     filters: {
       colors: [] as (keyof typeof Colors)[]
-    }
+    },
+    extendedFlagInfo: false
   }),
   getters: {
     getCountriesCodes: (state) => state.countries.map((country) => country.code.toLowerCase()),
@@ -26,6 +27,9 @@ export const useCountriesStore = defineStore({
   actions: {
     addFilteredColor(color: keyof typeof Colors) {
       this.filters.colors.push(color)
+    },
+    toggleExtendedFlagInfo() {
+      this.extendedFlagInfo = !this.extendedFlagInfo
     }
   }
 })
