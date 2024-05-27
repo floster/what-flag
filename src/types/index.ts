@@ -14,6 +14,16 @@ export enum Colors {
   yellow = 'yellow'
 }
 
+// possible colors of the flag
+export enum Backgrounds {
+  black = 'bg-black',
+  white = 'bg-white',
+  red = 'bg-rose-500',
+  green = 'bg-emerald-500',
+  blue = 'bg-sky-500',
+  yellow = 'bg-yellow-500'
+}
+
 export enum FlagIcons {
   Symbol = 'symbol',
   Origami = 'origami',
