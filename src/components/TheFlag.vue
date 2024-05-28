@@ -25,7 +25,7 @@ const country: Country = countriesStore.getCountryByCode(props.code)!
       <img :src="`/flags/${country.code.toLowerCase()}.svg`" :alt="`Flag of ${country.name}`" />
     </figure>
     <div class="card-body">
-      <h2 class="card-title text-base lg:text-lg">
+      <h2 class="card-title text-base">
         <div v-if="countriesStore.extendedFlagInfo" class="badge badge-lg badge-ghost">
           {{ country.code }}
         </div>
