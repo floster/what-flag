@@ -22,13 +22,15 @@ const country: Country = countriesStore.getCountryByCode(props.code)!
 </script>
 
 <template>
-  <div class="card card-compact w-full max-w-96 bg-base-100 shadow-xl rounded-lg">
+  <div class="card card-compact w-full max-w-80 bg-base-100 shadow-xl rounded-lg">
     <figure>
       <img :src="`/flags/${country.code.toLowerCase()}.svg`" :alt="`Flag of ${country.name}`" />
     </figure>
     <div class="card-body">
       <h2 class="card-title">
-        <div class="badge badge-lg badge-ghost">{{ country.code }}</div>
+        <div v-if="countriesStore.extendedFlagInfo" class="badge badge-lg badge-ghost">
+          {{ country.code }}
+        </div>
         {{ country.name }}
       </h2>
       <FlagInfo v-if="countriesStore.extendedFlagInfo" :country="country" class="mt-auto" />
