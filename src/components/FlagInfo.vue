@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { defineProps } from 'vue'
-
 import type { Country } from '@/types'
 import { FlagIcons } from '@/types'
 

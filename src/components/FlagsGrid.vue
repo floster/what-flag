@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { defineProps } from 'vue'
 import TheFlag from '@/components/TheFlag.vue'
 
 defineProps<{
@@ -12,7 +11,7 @@ defineProps<{
     <TransitionGroup
       name="list"
       tag="div"
-      class="grid grid-cols-1 gap-x-3 gap-y-5 md:gap-x-4 md:gap-y-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+      class="grid grid-cols-1 gap-x-3 gap-y-5 md:gap-x-4 md:gap-y-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5"
     >
       <TheFlag v-for="code in countries" :key="code" :code="code"
     /></TransitionGroup>

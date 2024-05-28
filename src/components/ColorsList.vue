@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { defineProps } from 'vue'
 import ColorSwatch from '@/components/ColorSwatch.vue'
 import type { FlagColors, Colors } from '@/types'
 

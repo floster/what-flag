@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { defineProps, computed } from 'vue'
+import { computed } from 'vue'
 import { Colors, Backgrounds } from '@/types'
 
 const props = defineProps<{
@@ -26,5 +26,5 @@ const color = computed(() => {
 })
 </script>
 <template>
-  <li class="inline-flex w-8 h-4 bg-slate-300" :class="color"></li>
+  <li class="inline-flex w-8 h-4" :class="color"></li>
 </template>
