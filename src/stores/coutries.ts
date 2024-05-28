@@ -10,7 +10,8 @@ export const useCountriesStore = defineStore({
     filters: {
       colors: [] as (keyof typeof Colors)[]
     },
-    extendedFlagInfo: false
+    extendedFlagInfo: false,
+    flagsWithSymbolOnly: false
   }),
   getters: {
     getCountriesCodes: (state) => state.countries.map((country) => country.code.toLowerCase()),
@@ -19,10 +20,20 @@ export const useCountriesStore = defineStore({
       (code: string): Country | undefined =>
         state.countries.find((country) => country.code === code),
 
-    getFilteredCountries: (state) =>
-      state.countries
+    getFlagsWithSymbol: (state): Country[] =>
+      state.countries.filter((country) => country.flagData.symbol),
+
+    getFilteredFlags(state): string[] {
+      const flags = this.flagsWithSymbolOnly ? this.getFlagsWithSymbol : state.countries
+
+      return flags
         .filter((country) => state.filters.colors.every((color) => country.flagData.colors[color]))
         .map((country) => country.code)
+    },
+
+    getResultsQty(): number {
+      return this.getFilteredFlags.length
+    }
   },
   actions: {
     addFilteredColor(color: keyof typeof Colors) {
@@ -30,6 +41,9 @@ export const useCountriesStore = defineStore({
     },
     toggleExtendedFlagInfo() {
       this.extendedFlagInfo = !this.extendedFlagInfo
+    },
+    toggleFlagsWithSymbolOnly() {
+      this.flagsWithSymbolOnly = !this.flagsWithSymbolOnly
     }
   }
 })
