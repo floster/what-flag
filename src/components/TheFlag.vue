@@ -22,7 +22,7 @@ const country: Country = countriesStore.getCountryByCode(props.code)!
 </script>
 
 <template>
-  <div class="card card-compact w-full max-w-80 bg-base-100 shadow-xl rounded-lg">
+  <div class="card card-compact w-full lg:max-w-80 bg-base-100 shadow-xl rounded-lg">
     <figure>
       <img :src="`/flags/${country.code.toLowerCase()}.svg`" :alt="`Flag of ${country.name}`" />
     </figure>
