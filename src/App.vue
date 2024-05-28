@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, watch } from 'vue'
 import FlagsGrid from '@/components/FlagsGrid.vue'
-import FiltersPanel from '@/components/FiltersPanel.vue'
+import AppHeader from '@/components/AppHeader.vue'
 import StatsPanel from '@/components/StatsPanel.vue'
 
 // [-] implement &/| logic for filters - bad idea
@@ -27,7 +27,7 @@ watch(
 
 <template>
   <div class="container mx-auto py-5 px-2">
-    <FiltersPanel class="mb-5 pb-5 border-b border-b-neutral-content dark:border-b-neutral" />
+    <AppHeader class="mb-5 pb-5 border-b border-b-neutral-content dark:border-b-neutral" />
     <StatsPanel />
     <FlagsGrid :countries="countries" />
   </div>
