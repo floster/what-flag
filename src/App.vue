@@ -8,28 +8,16 @@ import StatsPanel from '@/components/StatsPanel.vue'
 // [x] filter by origami/symbol/us_related
 // [x] improve responsive design
 // [x] host app on netlify
+// [ ] group flags by country's 1st letter
 // [ ] print page with dimmed flag colors
 // [ ] country page with more info (API call)
 // [ ] think about lazyloading on 1st screen
-
-// import coutries store
-import { useCountriesStore } from '@/stores/coutries'
-const countriesStore = useCountriesStore()
-
-const countries = ref(countriesStore.getFilteredFlags)
-
-watch(
-  () => countriesStore.getFilteredFlags,
-  () => {
-    countries.value = countriesStore.getFilteredFlags
-  }
-)
 </script>
 
 <template>
   <div class="container mx-auto py-5 px-2">
-    <AppHeader class="mb-5 pb-5 border-b border-b-neutral-content dark:border-b-neutral" />
+    <AppHeader class="mb-5 pb-5" />
     <StatsPanel />
-    <FlagsGrid :countries="countries" />
+    <FlagsGrid />
   </div>
 </template>

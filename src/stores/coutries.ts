@@ -45,6 +45,29 @@ export const useCountriesStore = defineStore({
         .map((country) => country.code)
     },
 
+    getGroupedByFirstLetterFlags(): Record<string, string[]> {
+      // object with keys as first letter of country code and values as array of country codes
+      const grouped = this.getFilteredFlags.reduce(
+        (acc, code) => {
+          const firstLetter = code[0].toUpperCase()
+          acc[firstLetter] = acc[firstLetter] ? [...acc[firstLetter], code] : [code]
+          return acc
+        },
+        {} as Record<string, string[]>
+      )
+
+      // sort object by keys and return it
+      return Object.keys(grouped)
+        .sort()
+        .reduce(
+          (acc, key) => {
+            acc[key] = grouped[key]
+            return acc
+          },
+          {} as Record<string, string[]>
+        )
+    },
+
     getResultsQty(): number {
       return this.getFilteredFlags.length
     }
