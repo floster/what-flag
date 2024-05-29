@@ -7,7 +7,8 @@ import StatsPanel from '@/components/StatsPanel.vue'
 // [-] implement &/| logic for filters - bad idea
 // [x] filter by origami/symbol/us_related
 // [x] improve responsive design
-// [ ] host app on netlify
+// [x] host app on netlify
+// [ ] print page with dimmed flag colors
 // [ ] country page with more info (API call)
 // [ ] think about lazyloading on 1st screen
 

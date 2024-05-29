@@ -8,10 +8,10 @@ import IconSymbol from '@/components/icons/IconSymbol.vue'
 
 <template>
   <button
-    class="btn btn-sm btn-square btn-ghost text-slate-400 hover:bg-slate-100"
-    :class="{ 'text-primary bg-primary-content': countriesStore.flagsWithSymbolOnly }"
-    @click="countriesStore.toggleFlagsWithSymbolOnly"
-    :title="`${countriesStore.flagsWithSymbolOnly ? 'show all flags' : 'show only flags with symbols'} `"
+    class="btn btn-sm btn-square btn-ghost hover:bg-slate-50"
+    :class="countriesStore.flagsWithSymbol ? 'text-primary' : 'text-slate-400'"
+    @click="countriesStore.toggleFlagsWithSymbol"
+    :title="`${countriesStore.flagsWithSymbol ? 'show all flags' : 'show only flags with symbols'} `"
   >
     <IconSymbol class="w-6 h-6" />
   </button>

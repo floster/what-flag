@@ -2,11 +2,15 @@
 import { computed } from 'vue'
 import { Colors, Backgrounds } from '@/types'
 
+// import coutries store
+import { useCountriesStore } from '@/stores/coutries'
+const countriesStore = useCountriesStore()
+
 const props = defineProps<{
   color: Colors
 }>()
 
-const color = computed(() => {
+const style = computed(() => {
   switch (props.color) {
     case Colors.black:
       return Backgrounds.black
@@ -26,5 +30,10 @@ const color = computed(() => {
 })
 </script>
 <template>
-  <li class="inline-flex w-8 h-4" :class="color"></li>
+  <li
+    class="inline-flex w-8 h-4 cursor-pointer"
+    :class="style"
+    :data-color="color"
+    @click="() => countriesStore.toggleFilteredColor(color)"
+  ></li>
 </template>

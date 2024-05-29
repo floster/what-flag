@@ -10,8 +10,12 @@ export const useCountriesStore = defineStore({
     filters: {
       colors: [] as (keyof typeof Colors)[]
     },
+
     extendedFlagInfo: false,
-    flagsWithSymbolOnly: false
+
+    flagsWithSymbol: false,
+    flagsWithOrigami: false,
+    gbRelatedFlags: false
   }),
   getters: {
     getCountriesCodes: (state) => state.countries.map((country) => country.code.toLowerCase()),
@@ -23,8 +27,18 @@ export const useCountriesStore = defineStore({
     getFlagsWithSymbol: (state): Country[] =>
       state.countries.filter((country) => country.flagData.symbol),
 
+    getFlagsWithOrigami: (state): Country[] =>
+      state.countries.filter((country) => country.flagData.origami),
+
+    getGbRelatedFlags: (state): Country[] =>
+      state.countries.filter((country) => country.flagData.gb_related),
+
     getFilteredFlags(state): string[] {
-      const flags = this.flagsWithSymbolOnly ? this.getFlagsWithSymbol : state.countries
+      let flags: Country[] = this.flagsWithSymbol ? this.getFlagsWithSymbol : state.countries
+
+      flags = this.flagsWithOrigami ? flags.filter((country) => country.flagData.origami) : flags
+
+      flags = this.gbRelatedFlags ? flags.filter((country) => country.flagData.gb_related) : flags
 
       return flags
         .filter((country) => state.filters.colors.every((color) => country.flagData.colors[color]))
@@ -36,14 +50,32 @@ export const useCountriesStore = defineStore({
     }
   },
   actions: {
-    addFilteredColor(color: keyof typeof Colors) {
-      this.filters.colors.push(color)
+    toggleFilteredColor(color: keyof typeof Colors) {
+      const index = this.filters.colors.indexOf(color)
+
+      if (index === -1) {
+        this.filters.colors.push(color)
+      } else {
+        this.filters.colors.splice(index, 1)
+      }
     },
     toggleExtendedFlagInfo() {
       this.extendedFlagInfo = !this.extendedFlagInfo
     },
-    toggleFlagsWithSymbolOnly() {
-      this.flagsWithSymbolOnly = !this.flagsWithSymbolOnly
+    toggleFlagsWithSymbol() {
+      this.flagsWithSymbol = !this.flagsWithSymbol
+    },
+    toggleFlagsWithOrigami() {
+      this.flagsWithOrigami = !this.flagsWithOrigami
+    },
+    toggleGbRelatedFlags() {
+      this.gbRelatedFlags = !this.gbRelatedFlags
+    },
+    resetFilters() {
+      this.filters.colors = []
+      this.flagsWithSymbol = false
+      this.flagsWithOrigami = false
+      this.gbRelatedFlags = false
     }
   }
 })
