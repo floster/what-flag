@@ -4,6 +4,7 @@ import { useCountriesStore } from '@/stores/coutries'
 const countriesStore = useCountriesStore()
 
 import FlagExtendedInfoToggle from '@/components/FlagExtendedInfoToggle.vue'
+import FlagsGridLookToggle from '@/components/FlagsGridLookToggle.vue'
 </script>
 
 <template>
@@ -11,6 +12,9 @@ import FlagExtendedInfoToggle from '@/components/FlagExtendedInfoToggle.vue'
     <p class="text-slate-600">
       <span class="font-semibold">{{ countriesStore.getResultsQty }}</span> flags
     </p>
-    <FlagExtendedInfoToggle class="ml-auto" />
+    <div class="flex items-center gap-x-5 ml-auto">
+      <FlagsGridLookToggle />
+      <FlagExtendedInfoToggle />
+    </div>
   </section>
 </template>

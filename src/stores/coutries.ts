@@ -11,6 +11,7 @@ export const useCountriesStore = defineStore({
       colors: [] as (keyof typeof Colors)[]
     },
 
+    showGroupedFlags: false,
     extendedFlagInfo: false,
 
     flagsWithSymbol: false,
@@ -73,6 +74,9 @@ export const useCountriesStore = defineStore({
     }
   },
   actions: {
+    toggleGroupedFlags() {
+      this.showGroupedFlags = !this.showGroupedFlags
+    },
     toggleFilteredColor(color: keyof typeof Colors) {
       const index = this.filters.colors.indexOf(color)
 

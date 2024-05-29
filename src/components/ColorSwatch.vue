@@ -25,7 +25,7 @@ const style = computed(() => {
     case Colors.yellow:
       return Backgrounds.yellow
     default:
-      return
+      return ''
   }
 })
 </script>
