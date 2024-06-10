@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { RouterLink } from 'vue-router'
 import type { Country } from '@/types'
 
 // import components
@@ -33,7 +34,9 @@ const country: Country = countriesStore.getCountryByCode(props.code)!
         <div v-if="countriesStore.extendedFlagInfo" class="badge badge-lg badge-ghost">
           {{ country.code }}
         </div>
-        {{ country.name }}
+        <RouterLink :to="{ name: 'print', params: { code: country.code } }" class="">
+          {{ country.name }}</RouterLink
+        >
       </h2>
       <FlagInfo v-if="countriesStore.extendedFlagInfo" :country="country" class="mt-auto" />
     </div>
