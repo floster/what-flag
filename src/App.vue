@@ -7,7 +7,7 @@ import { RouterView } from 'vue-router'
 // [x] host app on netlify
 // [x] group flags by country's 1st letter
 // [x] disable a filter when no flags with this filter
-// [ ] print page with dimmed flag colors
+// [x] print page with dimmed flag colors
 // [ ] country page with more info (API call)
 // [ ] think about lazyloading on 1st screen
 // [ ] add link to GitHub repo
