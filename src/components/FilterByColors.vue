@@ -9,17 +9,17 @@ import { Colors } from '@/types'
 const getColorClass = (color: Colors) => {
   switch (color) {
     case Colors.black:
-      return 'bg-black [--chkbg:theme(colors.black)] [--chkfg:white]'
+      return 'bg-black [--chkbg:theme(colors.black)] [--chkfg:white] disabled:bg-black'
     case Colors.white:
-      return 'bg-white [--chkbg:theme(colors.white)] [--chkfg:black]'
+      return 'bg-white [--chkbg:theme(colors.white)] [--chkfg:black] disabled:bg-white'
     case Colors.red:
-      return 'bg-red-400 [--chkbg:theme(colors.red.500)] [--chkfg:white]'
+      return 'bg-red-400 [--chkbg:theme(colors.red.500)] [--chkfg:white] disabled:bg-red-400'
     case Colors.green:
-      return 'bg-green-400 [--chkbg:theme(colors.green.500)] [--chkfg:white]'
+      return 'bg-green-400 [--chkbg:theme(colors.green.500)] [--chkfg:white] disabled:bg-green-400'
     case Colors.blue:
-      return 'bg-blue-400 [--chkbg:theme(colors.blue.500)] [--chkfg:white]'
+      return 'bg-blue-400 [--chkbg:theme(colors.blue.500)] [--chkfg:white] disabled:bg-blue-400'
     case Colors.yellow:
-      return 'bg-yellow-400 [--chkbg:theme(colors.yellow.500)] [--chkfg:white]'
+      return 'bg-yellow-400 [--chkbg:theme(colors.yellow.500)] [--chkfg:white] disabled:bg-yellow-400'
     default:
       return ''
   }
@@ -35,6 +35,7 @@ const getColorClass = (color: Colors) => {
       class="checkbox checkbox-lg"
       :class="getColorClass(color)"
       :value="color"
+      :disabled="!countriesStore.getAvailableColorsToBeFiltered.includes(color)"
       v-model="countriesStore.filters.colors"
     />
   </form>

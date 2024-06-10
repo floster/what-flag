@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import FlagsGrid from '@/components/FlagsGrid.vue'
 import AppHeader from '@/components/AppHeader.vue'
+import FlagsGrid from '@/components/FlagsGrid.vue'
 import FlagsGridHeader from '@/components/FlagsGridHeader.vue'
 
 // [-] implement &/| logic for filters - bad idea
@@ -8,9 +8,11 @@ import FlagsGridHeader from '@/components/FlagsGridHeader.vue'
 // [x] improve responsive design
 // [x] host app on netlify
 // [x] group flags by country's 1st letter
+// [x] disable a filter when no flags with this filter
 // [ ] print page with dimmed flag colors
 // [ ] country page with more info (API call)
 // [ ] think about lazyloading on 1st screen
+// [ ] add link to GitHub repo
 </script>
 
 <template>

@@ -34,21 +34,25 @@ export const useCountriesStore = defineStore({
     getGbRelatedFlags: (state): Country[] =>
       state.countries.filter((country) => country.flagData.gb_related),
 
-    getFilteredFlags(state): string[] {
+    getFilteredFlags(state): Country[] {
       let flags: Country[] = this.flagsWithSymbol ? this.getFlagsWithSymbol : state.countries
 
       flags = this.flagsWithOrigami ? flags.filter((country) => country.flagData.origami) : flags
 
       flags = this.gbRelatedFlags ? flags.filter((country) => country.flagData.gb_related) : flags
 
-      return flags
-        .filter((country) => state.filters.colors.every((color) => country.flagData.colors[color]))
-        .map((country) => country.code)
+      return flags.filter((country) =>
+        state.filters.colors.every((color) => country.flagData.colors[color])
+      )
+    },
+
+    getFilteredFlagsCodes(): string[] {
+      return this.getFilteredFlags.map((country) => country.code.toLowerCase())
     },
 
     getGroupedByFirstLetterFlags(): Record<string, string[]> {
       // object with keys as first letter of country code and values as array of country codes
-      const grouped = this.getFilteredFlags.reduce(
+      const grouped = this.getFilteredFlagsCodes.reduce(
         (acc, code) => {
           const firstLetter = code[0].toUpperCase()
           acc[firstLetter] = acc[firstLetter] ? [...acc[firstLetter], code] : [code]
@@ -71,6 +75,26 @@ export const useCountriesStore = defineStore({
 
     getResultsQty(): number {
       return this.getFilteredFlags.length
+    },
+
+    getAvailableColorsToBeFiltered(): (keyof typeof Colors)[] {
+      const colors = new Set<keyof typeof Colors>()
+      this.getFilteredFlags.forEach((country) => {
+        Object.keys(country.flagData.colors).forEach((color) =>
+          colors.add(color as keyof typeof Colors)
+        )
+      })
+      return Array.from(colors)
+    },
+
+    getAttributesToBeFiltered() {
+      const attributes = new Set<'origami' | 'symbol' | 'gb_related'>()
+      this.getFilteredFlags.forEach((country) => {
+        if (country.flagData.origami) attributes.add('origami')
+        if (country.flagData.symbol) attributes.add('symbol')
+        if (country.flagData.gb_related) attributes.add('gb_related')
+      })
+      return Array.from(attributes)
     }
   },
   actions: {
